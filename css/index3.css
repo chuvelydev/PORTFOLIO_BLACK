@@ -1536,7 +1536,18 @@ display: none;
 .plan1 img{
   width:100%;
 }
+.plan2{
+  width: 600px;
+  height:600px;
+  overflow-y: hidden;
 
+  overflow-y: scroll;
+overflow-x: hidden;
+display: none;
+}
+.plan2 img{
+  width:100%;
+}
   /*con3*/
   #con3 {
     width: 100%;
@@ -2348,7 +2359,18 @@ display: none;
   width:100%;
 }
 
+.plan2{
+  width: 400px;
+  height:600px;
+  overflow-y: hidden;
 
+  overflow-y: scroll;
+overflow-x: hidden;
+display: none;
+}
+.plan2 img{
+  width:100%;
+}
   /*con3*/
   #con3 {
     width: 100%;
@@ -3157,7 +3179,18 @@ display: none;
   width:100%;
 }
 
+.plan2{
+  width: 300px;
+  height:600px;
+  overflow-y: hidden;
 
+  overflow-y: scroll;
+overflow-x: hidden;
+display: none;
+}
+.plan2 img{
+  width:100%;
+}
   /*con3*/
   #con3 {
     width: 100%;
