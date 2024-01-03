@@ -296,5 +296,24 @@ $(document).ready(function () {
       $("#con2 h2").css({display:"block"})
   });
 
+  $(".plan2_a").click(function (event) {
+    event.preventDefault(); 
+    event.stopPropagation(); 
+    $(".plan2").toggle();
+    $(".con2ul").css({display:"none"})
+    $(".bottom").css({display:"none"})
+    $("#con2 h2").css({display:"none"})
+});
+
+$(document).click(function (event) {
+
+    if ($(".plan2").is(":visible")) {
+        $(".plan2").hide();
+    }
+    $(".con2ul").css({display:"block"})
+    $(".bottom").css({display:"block"})
+    $("#con2 h2").css({display:"block"})
+});
+
 
 });
