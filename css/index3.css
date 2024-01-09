@@ -535,7 +535,7 @@ a {
     justify-items: center;
   }
   .con2_1 {
-    width: 50vw;
+    width: 1788px;
     height: 600px;
     position: absolute;
     left:10%;
@@ -548,7 +548,7 @@ a {
   .con2_1 .computer {
     position: absolute;
     top: 10%;
-    width: 50vw;
+    width: 1788px;
     height: 100%;
     overflow: hidden;
     z-index: 66;
@@ -720,12 +720,22 @@ display: none;
   width: 800px;
   height:800px;
   overflow-y: hidden;
-
   overflow-y: scroll;
-overflow-x: hidden;
-display: none;
+  overflow-x: hidden;
+  display: none;
 }
 .plan2 img{
+  width:100%;
+}
+.plan4{
+  width: 800px;
+  height:800px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: none;
+}
+.plan4 img{
   width:100%;
 }
   /*con3*/
@@ -842,8 +852,7 @@ display: none;
     display: block;
   }
   .small img:hover {
-    transform: scale(1.2);
-    transition: 1s;
+    transition: 0.5s;
     filter: grayscale(3);
     opacity:0.4;
   }
@@ -1540,12 +1549,22 @@ display: none;
   width: 600px;
   height:600px;
   overflow-y: hidden;
-
   overflow-y: scroll;
-overflow-x: hidden;
-display: none;
+  overflow-x: hidden;
+  display: none;
 }
 .plan2 img{
+  width:100%;
+}
+.plan4{
+  width: 600px;
+  height:600px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: none;
+}
+.plan4 img{
   width:100%;
 }
   /*con3*/
@@ -1658,8 +1677,7 @@ display: none;
     display: block;
   }
   .small img:hover {
-    transform: scale(1.2);
-    transition: 1s;
+    transition: 0.5s;
     filter: grayscale(3);
     opacity:0.2;
   }
@@ -2363,12 +2381,22 @@ display: none;
   width: 400px;
   height:600px;
   overflow-y: hidden;
-
   overflow-y: scroll;
-overflow-x: hidden;
-display: none;
+  overflow-x: hidden;
+  display: none;
 }
 .plan2 img{
+  width:100%;
+}
+.plan4{
+  width: 400px;
+  height:600px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: none;
+}
+.plan4 img{
   width:100%;
 }
   /*con3*/
@@ -2483,8 +2511,8 @@ display: none;
     display: block;
   }
   .small img:hover {
-    transform: scale(1.2);
-    transition: 1s;
+
+    transition: 0.5s;
     filter: grayscale(3);
     opacity: 0.2;
   }
@@ -3182,13 +3210,23 @@ display: none;
 .plan2{
   width: 300px;
   height:600px;
-  overflow-y: hidden;
-
+  overflow-y: hidden;   
   overflow-y: scroll;
-overflow-x: hidden;
-display: none;
+  overflow-x: hidden;
+  display: none;
 }
 .plan2 img{
+  width:100%;
+}
+.plan4{
+  width: 300px;
+  height:600px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: none;
+}
+.plan4 img{
   width:100%;
 }
   /*con3*/
@@ -3300,8 +3338,8 @@ display: none;
     display: block;
   }
   .small img:hover {
-    transform: scale(1.2);
-    transition: 1s;
+
+    transition: 0.5s;
     filter: grayscale(3);
     opacity:0.2;
   }

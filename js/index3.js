@@ -314,6 +314,21 @@ $(document).click(function (event) {
     $(".bottom").css({display:"block"})
     $("#con2 h2").css({display:"block"})
 });
+$(".plan4_a").click(function (event) {
+  event.preventDefault(); 
+  event.stopPropagation(); 
+  $(".plan4").toggle();
+  $(".con2ul").css({display:"none"})
+  $(".bottom").css({display:"none"})
+  $("#con2 h2").css({display:"none"})
+});
+$(document).click(function (event) {
 
-
+  if ($(".plan4").is(":visible")) {
+      $(".plan4").hide();
+  }
+  $(".con2ul").css({display:"block"})
+  $(".bottom").css({display:"block"})
+  $("#con2 h2").css({display:"block"})
+});
 });
