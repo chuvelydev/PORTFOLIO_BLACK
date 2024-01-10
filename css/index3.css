@@ -9,6 +9,8 @@ body {
   overflow-x: hidden;
   font-family: "HakgyoansimWoojuR";
   background: #040b1a;
+cursor:pointer;
+
 }
 ::-webkit-scrollbar {
   width: 15px; /* 세로축 스크롤 바 길이 */
@@ -802,12 +804,13 @@ display: none;
   }
 
   .small {
-    width: 100%;
+    width: 80%;
     height: 100%;
     margin: 0px auto;
     padding-top: 12vw;
     position: absolute;
     top: 0;
+    left:10%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -856,7 +859,7 @@ display: none;
     filter: grayscale(3);
     opacity:0.4;
   }
-
+ 
   .con3_1 a {
     width: 20px;
     height: 20px;
